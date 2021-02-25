@@ -1,0 +1,7 @@
+Started by user [8mha:////4BQOGoyQkR/0qgHUM1X5Q1BaekqhM9YiTkMPZPQzOcE3AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZu/dLi1CL9xJTczDwACG0V4sAAAAA=[0mJenkins Admin
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/cp-file-container
+[cp-file-container] $ /bin/sh -xe /tmp/jenkins1806382382545388214.sh
++ /tmp/script.sh TOM JERRY
+Hello, TOM, JERRY
+Finished: SUCCESS

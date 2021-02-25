@@ -1,0 +1,16 @@
+Started by user [8mha:////4BQOGoyQkR/0qgHUM1X5Q1BaekqhM9YiTkMPZPQzOcE3AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZu/dLi1CL9xJTczDwACG0V4sAAAAA=[0mJenkins Admin
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/my-first-job
+[my-first-job] $ /bin/sh -xe /tmp/jenkins2588124536833584183.sh
++ echo Hello World
+Hello World
++ date
++ echo Current Date and time is Tue 23 Feb 2021 03:26:52 AM UTC
+Current Date and time is Tue 23 Feb 2021 03:26:52 AM UTC
++ Name=Admin
++ date
++ echo Hello Admin, the current Date and Time is Tue 23 Feb 2021 03:26:52 AM UTC
+Hello Admin, the current Date and Time is Tue 23 Feb 2021 03:26:52 AM UTC
++ date
++ echo Hello Admin, the current Date and Time is Tue 23 Feb 2021 03:26:52 AM UTC
+Finished: SUCCESS
