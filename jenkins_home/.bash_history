@@ -17,3 +17,17 @@ ls
 cat scriptParam.sh
 cat /tmp/scriptParam.sh
 exit
+ssh remote_user@remote_host
+pwd
+ping remote_host
+clear
+ssh remote_user@remote_host
+exit
+ls
+cd tmp
+ls
+ssh -i remote-key remote_user@remote_host
+cat remote-key 
+sudo cat remote-key 
+ssh -i remote-key remote_user@remote_host
+exit
