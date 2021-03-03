@@ -31,3 +31,7 @@ cat remote-key
 sudo cat remote-key 
 ssh -i remote-key remote_user@remote_host
 exit
+docker ps
+getent group docker
+cat /etc/group |grep docker
+exit

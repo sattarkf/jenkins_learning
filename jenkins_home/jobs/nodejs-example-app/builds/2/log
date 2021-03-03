@@ -1,0 +1,39 @@
+Started by user [8mha:////4BQOGoyQkR/0qgHUM1X5Q1BaekqhM9YiTkMPZPQzOcE3AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZu/dLi1CL9xJTczDwACG0V4sAAAAA=[0mJenkins Admin
+Running as SYSTEM
+Building on master in workspace /var/jenkins_home/workspace/nodejs-example-app
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/wardviaene/docker-demo.git
+ > git init /var/jenkins_home/workspace/nodejs-example-app # timeout=10
+Fetching upstream changes from https://github.com/wardviaene/docker-demo.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.20.1'
+ > git fetch --tags --force --progress -- https://github.com/wardviaene/docker-demo.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/wardviaene/docker-demo.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 60e6c11240f1e29dbef8df67a01ef580ce01cadf (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 60e6c11240f1e29dbef8df67a01ef580ce01cadf # timeout=10
+Commit message: "node version bump to 12"
+First time build. Skipping changelog.
+Unpacking https://nodejs.org/dist/v15.10.0/node-v15.10.0-linux-x64.tar.gz to /var/jenkins_home/tools/jenkins.plugins.nodejs.tools.NodeJSInstallation/nodejs on Jenkins
+[nodejs-example-app] $ /bin/sh -xe /tmp/jenkins2830594133494586677.sh
++ npm install
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'myapp@0.0.1',
+npm WARN EBADENGINE   required: { node: '^4.6.1' },
+npm WARN EBADENGINE   current: { node: 'v15.10.0', npm: '7.5.3' }
+npm WARN EBADENGINE }
+
+added 94 packages, and audited 95 packages in 26s
+
+3 low severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+Finished: SUCCESS
