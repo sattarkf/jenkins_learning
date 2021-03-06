@@ -32,3 +32,6 @@ Topics learned till date:
 28) Jenkins JOB DSL 
 29) Installing DSL plugin, seed job in DSL, adding components such as description, Paramaters, SCM, triggers, steps, mailer.
 30) Integrating/passing grrovy script code thru git -> example with NODEJS application
+31)
+32) Jenkins and Email Integration
+
