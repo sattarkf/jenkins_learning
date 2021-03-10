@@ -36,3 +36,8 @@ Topics learned till date:
 32) Jenkins and Email Integration
 33) Jenkins Pipelines
 34) Jenkinsfile, Declarative and Scripted Pipelines -> pipeline and node block, agent and its parameters, Stages, steps, Retry, Timeout, Environment Variables, Credentials, post-actions, reuseNode and more.
+35) Slack Integration
+
+
+
+
